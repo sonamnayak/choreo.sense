@@ -99,6 +99,9 @@ header {
     transition: all 0.5s ease-in-out;
     width: 100%;
 }
+.row-rev{
+    flex-direction: row-reverse;
+}
 
 .header_container {
     padding: 42px 45px 40px;
@@ -1381,3 +1384,11 @@ input::placeholder {
             transform: translate3d(0, 0, 0);
         }
       }
+
+
+
+@media screen and (max-width:990px){
+    .recent_main{
+        flex-direction: column;
+    }
+}
