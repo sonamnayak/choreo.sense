@@ -89,6 +89,7 @@ input {
 .container {
     max-width: 1170px;
     margin-inline: auto;
+    padding-inline: 15px;
 }
 
 header {
