@@ -31,13 +31,3 @@ window.addEventListener("scroll", () => {
 Array.from(document.querySelectorAll(".nav_li")).forEach((ele) =>
   ele.addEventListener("click", () => document.body.classList.toggle("open"))
 );
-
-for(let i = 5; i>=0; i--) {
-    console.log(n)
-}
-
-const func = (n) => {
-    if(n===0) return
-    console.log(n)
-    func(n-1)
-}
