@@ -1446,14 +1446,14 @@ footer .section_heading::after {
 }
 
 @media screen and (max-width: 990px) {
-  .recent_main {
+  .recent_main, .contact_section .row {
     flex-direction: column;
   }
   .about_img,
   .title_shadow {
     display: none;
   }
-  .about_details {
+  .about_details, .contact_info, .contact_form {
     width: 100%;
   }
   .unset {
@@ -1501,6 +1501,9 @@ footer .section_heading::after {
      padding-block-start: 100px;
   }
    
+  .contact_form input{
+    width:100%;
+  }
 }
 @media screen and (max-width: 768px) {
   .recent_heading p,
@@ -1540,9 +1543,6 @@ footer .section_heading::after {
     align-items: center;
     flex-direction: column;
   }
-  .contact_info {
-    width: 60%;
-  }
   .contact_section .row {
     gap: 80px;
   }
@@ -1557,4 +1557,10 @@ footer .section_heading::after {
     flex-direction: row;
     margin-block-start: 0;
   }
+}
+}
+@media screen and (max-width: 1100px){
+.contact_info{
+    padding: 20px 45px;
+}
 }
