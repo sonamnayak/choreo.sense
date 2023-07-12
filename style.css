@@ -1497,12 +1497,21 @@ footer .section_heading::after {
   .gallery_section {
     padding-block-start: 0px;
   }
+  .contact_info{
+    padding-inline: 20px;
+  }
   .change_life .container{
      padding-block-start: 100px;
   }
    
   .contact_form input{
     width:100%;
+  }
+  .reviews-card img{
+    display: none;
+  }
+  .review{
+    padding-block: 30px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1521,12 +1530,17 @@ footer .section_heading::after {
   .testimonial-section .review h4 {
     font-size: 22px;
 }
+.select-plan-section .plan-notes{
+  width: 95%;
+}
+}
 
 @media screen and (max-width: 1024px) {
   .select-plan-container .plan-cards {
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    width: 100%;
   }
   .select-plan-container .plan-cards .card:hover {
     transform: translateY(0);
@@ -1536,16 +1550,16 @@ footer .section_heading::after {
     padding: 45px 0;
   }
   .select-plan-container .plan-cards .card {
-    width: 550px;
+    width: 95%;
   }
 
-  .contact_section .row {
+  /* .contact_section .row {
     align-items: center;
     flex-direction: column;
-  }
-  .contact_section .row {
+  } */
+  /* .contact_section .row {
     gap: 80px;
-  }
+  } */
 }
 
 @media screen and (max-width: 1024px) {
